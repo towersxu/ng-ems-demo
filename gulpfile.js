@@ -72,4 +72,10 @@ gulp.task('html',function(){
   return gulp.src('app/directives/chatroom/*.html')
     .pipe(gulp.dest('release/html'));
 });
+
+gulp.task('bower',function(){
+  var bower = require('gulp-bower');
+  return bower('app/bower_components')
+    .pipe(gulp.dest('app/bower_lib/'))
+});
 gulp.task('default', ['less']);

@@ -1,4 +1,7 @@
 /**
  * Created by taox on 15-7-30.
  */
-home
+angular.module('app.home',['ui.bootstrap'])
+  .controller('AppCtrl',['$scope',function($scope){
+
+  }]);

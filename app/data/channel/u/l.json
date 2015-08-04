@@ -1,0 +1,15 @@
+{
+  "b":0,
+  "a":[
+    {
+      "name":"channel1",
+      "reason":"asdda",
+      "id":"1000"
+    },
+    {
+      "name":"channel2",
+      "reason":"asdasa",
+      "id":"1001"
+    }
+  ]
+}

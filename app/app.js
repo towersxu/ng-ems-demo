@@ -4,5 +4,5 @@
 angular
   .module("app", [
     "app.routing",
-    "app.channel"
+    "app.home"
   ]);
