@@ -3,6 +3,7 @@
  */
 angular
   .module("app", [
+
     "app.routing",
     "app.home"
   ]);

@@ -1,0 +1,13 @@
+<div class="modal-header">
+    <h3 class="modal-title">编辑!</h3>
+</div>
+
+    用户名:<input type="text" value="{{userInfo.name}}"></br>
+    性别:<input type="text" value="{{userInfo.gender}}"></br>
+    公司:<input type="text" value="{{userInfo.company}}"></br>
+    Selected: <b>{{ selected.item }}</b>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">OK</button>
+    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+</div>

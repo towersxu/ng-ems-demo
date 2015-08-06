@@ -1,0 +1,12 @@
+<div >
+    <div class="content_header"><a href="#">频道管理-频道</a> </div>
+    <div class="well well-lg mask" ng-class="">
+        <div ui-grid="gridOptions" ui-grid-edit ui-grid-row-edit ui-grid-cellNav class="grid"></div>
+        <div class="pageFooter">
+            <!--<pagination boundary-links="true" total-items="totalItems"  max-size="maxSize" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;"></pagination>-->
+            <span class="pageInfo" >Page: {{bigCurrentPage}} / {{numPages}}</span>     <pagination previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" total-items="bigTotalItems" ng-model="bigCurrentPage" max-size="maxSize" class="pagination-md" boundary-links="true" rotate="false"   num-pages="numPages" ng-change="pageChanged()"></pagination>
+
+        </div>
+    </div>
+
+</div>
